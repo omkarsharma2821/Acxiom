@@ -74,11 +74,6 @@ Token genration for session storage
 
 ### :running: Run Locally
 
-Clone the project
-
-```bash
-https://github.com/omkarsharma2821/VintiMart
-```
 Go to the frontend directory
 ```bash
 cd frontend
