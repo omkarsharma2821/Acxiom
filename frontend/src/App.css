@@ -1,0 +1,35 @@
+.nav-item .active {
+  /* border-bottom: 1px solid #1a1a1a; */
+  color: #c68a2e !important;
+  /* font-weight: bold; */
+}
+.navFont{
+  background-color: #f0f8ff;
+  color: black;
+}
+.homeCardsImg{
+  height: 300px;
+  /* object-fit: cover; */
+}
+.my-card-img{
+  /* object-fit: cover; */
+  height: 300px;
+  width: 277px;
+  transition: all ease 1s;
+}
+.my-card-img:hover{
+  transform: scale(1.2);
+}
+.cart-img{
+  object-fit: cover;
+}
+
+.button:hover{
+  scale: 0.9;
+  transition: all ease 0.2s;
+}
+.homecart{
+  object-fit: cover;
+  background-size: cover;
+}
+
