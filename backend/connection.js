@@ -11,7 +11,3 @@ mongoose.connect(url)
 });
 
 module.exports = mongoose;
-
-// collection is equal to table and documents are equal to rows 
-// post me data hidden rhta hai in body post jyda data send kr skte hai 
-// get me url me nor secure data 
