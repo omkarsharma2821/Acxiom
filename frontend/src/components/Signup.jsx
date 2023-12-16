@@ -28,7 +28,6 @@ const Signup = () => {
       email: "",
       password: "",
       confirm: "",
-
     },
     // call back hmko nhi pta kb call hoga lekin aap call hoga sb condition met hogi  jaise isme submit kr  rhe
     onSubmit: async (values, { resetForm }) => {
@@ -62,117 +61,135 @@ const Signup = () => {
     validationSchema: SignupSchema,
   });
 
-  
-
   return (
-      <div className=" p-5">
-        <header className="bg-dark text-white w-50 mx-auto rounded mb-0 shadow-lg">
-          <div className="container py-3">
-            <h6 className="text-center display-6 fw-semibold ">
-              Register for free, Hurry up!!
-            </h6>
-            <h4 className="text-center fw-light">
-              Create account to save your journey
-            </h4>
-          </div>
-        </header>
-        <div className="vh-100">
+    <div className=" p-5">
+      <header className="bg-dark text-white w-50 mx-auto rounded mb-0 shadow-lg">
+        <div className="container py-3">
+          <h6 className="text-center display-6 fw-semibold ">
+            Register for free, Hurry up!!
+          </h6>
+          <h4 className="text-center fw-light">
+            Create account to save your journey
+          </h4>
+        </div>
+      </header>
+      <div className="vh-100">
         <div className="d-flex justify-content-center">
           <div className="card w-50 col-6 col-md-6 shadow-lg">
             <div className="p-5 py-3">
               {/* <h2 className="text-center fw-semibold ">SignUp</h2> */}
-              <form onSubmit={signupForm.handleSubmit} >
+              <form onSubmit={signupForm.handleSubmit}>
                 <span
-                  style={{ fontSize: 10, marginLeft: "10px", color: "red" }}>
+                  style={{ fontSize: 10, marginLeft: "10px", color: "red" }}
+                >
                   {signupForm.touched.name && signupForm.errors.name}
                 </span>
-              <div class="input-group">
-                <span class="input-group-text"><i class="fa-solid fa-user"></i></span>
-                <div className="form-floating">
-                <input
-                  id="name"
-                  onChange={signupForm.handleChange}
-                  value={signupForm.values.name}
-                  type="text"
-                  className="form-control"
-                  placeholder="Username"
-                />
-                <label>Username</label>
-                </div>
+                <div class="input-group">
+                  <span class="input-group-text">
+                    <i class="fa-solid fa-user"></i>
+                  </span>
+                  <div className="form-floating">
+                    <input
+                      id="name"
+                      onChange={signupForm.handleChange}
+                      value={signupForm.values.name}
+                      type="text"
+                      className="form-control"
+                      placeholder="Username"
+                    />
+                    <label>Username</label>
+                  </div>
                 </div>
                 <span
-                  style={{ fontSize: 10, marginLeft: "10px", color: "red" }}>
+                  style={{ fontSize: 10, marginLeft: "10px", color: "red" }}
+                >
                   {signupForm.touched.email && signupForm.errors.email}
                 </span>
                 <div class="input-group">
-                <span class="input-group-text"><i class="fa-solid fa-envelope"></i></span>
-                <div className="form-floating">
-                <input
-                  id="email"
-                  onChange={signupForm.handleChange}
-                  value={signupForm.values.email}
-                  type="email"
-                  className="form-control"
-                  placeholder="Email"
-                />
-                <label>Email</label>
+                  <span class="input-group-text">
+                    <i class="fa-solid fa-envelope"></i>
+                  </span>
+                  <div className="form-floating">
+                    <input
+                      id="email"
+                      onChange={signupForm.handleChange}
+                      value={signupForm.values.email}
+                      type="email"
+                      className="form-control"
+                      placeholder="Email"
+                    />
+                    <label>Email</label>
+                  </div>
                 </div>
-                  
+                <div class="dropdown">
+                  <button
+                    class="btn btn-secondary dropdown-toggle"
+                    type="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Gender
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a class="dropdown-item" href="#">
+                        male
+                      </a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">
+                        female
+                      </a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">
+                        other
+                      </a>
+                    </li>
+                  </ul>
                 </div>
-                {/* <div className="form-floating">
-                <input
-                  id="phone"
-                  onChange={signupForm.handleChange}
-                  value={signupForm.values.phone}
-                  type="tel"
-                  className="form-control"
-                  placeholder="Phone"
-                />
-                <label>Phone</label>
+
                 <span
                   style={{ fontSize: 10, marginLeft: "10px", color: "red" }}
                 >
-                  {signupForm.touched.phone && signupForm.errors.phone}
-                </span>
-                </div> */}
-                <span
-                  style={{ fontSize: 10, marginLeft: "10px", color: "red" }}>
                   {signupForm.touched.password && signupForm.errors.password}
                 </span>
                 <div class="input-group">
-                <span class="input-group-text"><i class="fa-solid fa-lock"></i></span>
-                <div className="form-floating">
-                <input
-                  id="password"
-                  onChange={signupForm.handleChange}
-                  value={signupForm.values.password}
-                  type="password"
-                  className="form-control"
-                  placeholder="password"
-                />
-                <label>Password</label>
-                
-                </div>
+                  <span class="input-group-text">
+                    <i class="fa-solid fa-lock"></i>
+                  </span>
+                  <div className="form-floating">
+                    <input
+                      id="password"
+                      onChange={signupForm.handleChange}
+                      value={signupForm.values.password}
+                      type="password"
+                      className="form-control"
+                      placeholder="password"
+                    />
+                    <label>Password</label>
+                  </div>
                 </div>
                 <span
                   style={{ fontSize: 10, marginLeft: "10px", color: "red" }}
                 >
-                  {signupForm.touched.confirm &&
-                    signupForm.errors.confirm}
+                  {signupForm.touched.confirm && signupForm.errors.confirm}
                 </span>
                 <div className="input-group mb-3">
-                <span class="input-group-text"><i class="fa-solid fa-lock"></i></span>
-                <div className="form-floating">
-                <input
-                  id="confirm"
-                  onChange={signupForm.handleChange}
-                  value={signupForm.values.confirmpassword}
-                  type="password"
-                  className="form-control"
-                  placeholder="password"
-                />
-                <label>Confirm Password</label>
-                </div>
+                  <span class="input-group-text">
+                    <i class="fa-solid fa-lock"></i>
+                  </span>
+                  <div className="form-floating">
+                    <input
+                      id="confirm"
+                      onChange={signupForm.handleChange}
+                      value={signupForm.values.confirmpassword}
+                      type="password"
+                      className="form-control"
+                      placeholder="password"
+                    />
+                    <label>Confirm Password</label>
+                  </div>
                 </div>
                 <button
                   type="submit"
@@ -187,11 +204,11 @@ const Signup = () => {
                   </span>
                 </span>
               </form>
-              </div>
             </div>
           </div>
         </div>
       </div>
+    </div>
   );
 };
 
