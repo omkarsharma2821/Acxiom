@@ -13,7 +13,6 @@
 - [About the Task]
 - [Features]
 - [Run Locally]
-- [How to clone]
 - [Contact]
 
 ## :star2: About the Project
