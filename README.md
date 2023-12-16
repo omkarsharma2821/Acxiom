@@ -31,10 +31,10 @@
 
 
 # Checking Backend Connectivity through Postman
-<div align="center"> <img src="https://github.com/omkarsharma2821/Acxiom/blob/main/screenshots/Screenshot%20(86).png" alt='image' width='800'/></a> </div>
 confirming user authentication
-<div align="center"> <img src="https://github.com/omkarsharma2821/Acxiom/blob/main/screenshots/Screenshot%20(87).png" alt='image' width='800'/></a> </div>
+<div align="center"> <img src="https://github.com/omkarsharma2821/Acxiom/blob/main/screenshots/Screenshot%20(86).png" alt='image' width='800'/></a> </div>
 Token genration for session storage
+<div align="center"> <img src="https://github.com/omkarsharma2821/Acxiom/blob/main/screenshots/Screenshot%20(87).png" alt='image' width='800'/></a> </div>
 
 <!-- <div align="center"> <img src="https://github.com/omkarsharma2821/Acxiom/blob/main/screenshots/Screenshot%202023-12-16%20180314.png" alt='image' width='800'/></a> </div>
 <div align="center"> <img src="https://github.com/omkarsharma2821/VintiMart/blob/master/screenshots/Screenshot%202023-12-14%20204917.png" alt='image' width='800'/></a> </div>
