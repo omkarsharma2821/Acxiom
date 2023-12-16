@@ -57,6 +57,7 @@ Token genration for session storage
 - Sweetalert-2 for User Interaction
 - PocoLoco animation
 - FontAwesome icons
+- Validation on Forms using YUP
 
   
 ### :bangbang: Technologies Used
