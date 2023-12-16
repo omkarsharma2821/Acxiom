@@ -13,7 +13,6 @@
 - [About the Task]
 - [Features]
 - [Run Locally]
-- [How to clone]
 - [Contact]
 
 ## :star2: About the Project
@@ -24,9 +23,18 @@
 <div align="center"> <img src="https://github.com/omkarsharma2821/Acxiom/blob/main/screenshots/Screenshot%20(82).png" alt='image' width='800'/></a> </div>
 <div align="center"> <img src="https://github.com/omkarsharma2821/Acxiom/blob/main/screenshots/Screenshot%202023-12-16%20175743.png" alt='image' width='800'/></a> </div>
 <div align="center"> <img src="https://github.com/omkarsharma2821/Acxiom/blob/main/screenshots/Screenshot%202023-12-16%20180150.png" alt='image' width='800'/></a> </div>
+
+
+# Database
 <div align="center"> <img src="https://github.com/omkarsharma2821/Acxiom/blob/main/screenshots/Screenshot%20(85).png" alt='image' width='800'/></a> </div>
 <div align="center"> <img src="https://github.com/omkarsharma2821/Acxiom/blob/main/screenshots/Screenshot%20(84).png" alt='image' width='800'/></a> </div>
 
+
+# Checking Backend Connectivity through Postman
+<div align="center"> <img src="https://github.com/omkarsharma2821/Acxiom/blob/main/screenshots/Screenshot%20(86).png" alt='image' width='800'/></a> </div>
+confirming user authentication
+<div align="center"> <img src="https://github.com/omkarsharma2821/Acxiom/blob/main/screenshots/Screenshot%20(87).png" alt='image' width='800'/></a> </div>
+Token genration for session storage
 
 <!-- <div align="center"> <img src="https://github.com/omkarsharma2821/Acxiom/blob/main/screenshots/Screenshot%202023-12-16%20180314.png" alt='image' width='800'/></a> </div>
 <div align="center"> <img src="https://github.com/omkarsharma2821/VintiMart/blob/master/screenshots/Screenshot%202023-12-14%20204917.png" alt='image' width='800'/></a> </div>
@@ -35,9 +43,6 @@
 <div align="center"> <img src="https://github.com/omkarsharma2821/VintiMart/blob/master/screenshots/Screenshot%202023-12-14%20205331.png" alt='image' width='800'/></a> </div> -->
 
 
-<details> <summary>Database</summary> <ul>
-<li><a href="">MongoDB</a></li>
-</ul> </details>
 
 ### :dart: Features
 - Add Book
