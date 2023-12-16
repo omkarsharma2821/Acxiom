@@ -10,7 +10,7 @@
 
 # :notebook_with_decorative_cover: Table of Contents
 
-- [About the Project]
+- [About the Task]
 - [Features]
 - [Run Locally]
 - [How to clone]
@@ -19,16 +19,16 @@
 ## :star2: About the Project
 
 ### :camera: Snapshots
-<div align="center"> <a href="#"><img src="https://github.com/omkarsharma2821/VintiMart/blob/master/screenshots/Screenshot%202023-12-14%20194816.png" alt='image' width='800'/></a> </div>
-<div align="center"> <img src="https://github.com/omkarsharma2821/VintiMart/blob/master/screenshots/Screenshot%202023-12-14%20195008.png" alt='image' width='800'/></a> </div>
-<div align="center"> <img src="https://github.com/omkarsharma2821/VintiMart/blob/master/screenshots/Screenshot%202023-12-14%20195541.png" alt='image' width='800'/></a> </div>
-<div align="center"> <img src="https://github.com/omkarsharma2821/VintiMart/blob/master/screenshots/Screenshot%202023-12-14%20195650.png" alt='image' width='800'/></a> </div>
-<div align="center"> <img src="https://github.com/omkarsharma2821/VintiMart/blob/master/screenshots/Screenshot%202023-12-14%20195909.png" alt='image' width='800'/></a> </div>
-<div align="center"> <img src="https://github.com/omkarsharma2821/VintiMart/blob/master/screenshots/Screenshot%202023-12-14%20200049.png" alt='image' width='800'/></a> </div>
+<div align="center"> <a href="#"><img src="https://github.com/omkarsharma2821/Acxiom/blob/main/screenshots/Screenshot%20(80).png" alt='image' width='800'/></a> </div>
+<div align="center"> <img src="https://github.com/omkarsharma2821/Acxiom/blob/main/screenshots/Screenshot%20(82).png" alt='image' width='800'/></a> </div>
+<div align="center"> <img src="https://github.com/omkarsharma2821/Acxiom/blob/main/screenshots/Screenshot%202023-12-16%20175743.png" alt='image' width='800'/></a> </div>
+<div align="center"> <img src="https://github.com/omkarsharma2821/Acxiom/blob/main/screenshots/Screenshot%202023-12-16%20180150.png" alt='image' width='800'/></a> </div>
+<div align="center"> <img src="https://github.com/omkarsharma2821/Acxiom/blob/main/screenshots/Screenshot%202023-12-16%20180314.png" alt='image' width='800'/></a> </div>
+<!-- <div align="center"> <img src="https://github.com/omkarsharma2821/VintiMart/blob/master/screenshots/Screenshot%202023-12-14%20200049.png" alt='image' width='800'/></a> </div>
 <div align="center"> <img src="https://github.com/omkarsharma2821/VintiMart/blob/master/screenshots/Screenshot%202023-12-14%20204917.png" alt='image' width='800'/></a> </div>
 <div align="center"> <img src="https://github.com/omkarsharma2821/VintiMart/blob/master/screenshots/Screenshot%202023-12-14%20205039.png" alt='image' width='800'/></a> </div>
 <div align="center"> <img src="https://github.com/omkarsharma2821/VintiMart/blob/master/screenshots/Screenshot%202023-12-14%20205158.png" alt='image' width='800'/></a> </div>
-<div align="center"> <img src="https://github.com/omkarsharma2821/VintiMart/blob/master/screenshots/Screenshot%202023-12-14%20205331.png" alt='image' width='800'/></a> </div>
+<div align="center"> <img src="https://github.com/omkarsharma2821/VintiMart/blob/master/screenshots/Screenshot%202023-12-14%20205331.png" alt='image' width='800'/></a> </div> -->
 
 
 <details> <summary>Database</summary> <ul>
@@ -36,22 +36,29 @@
 </ul> </details>
 
 ### :dart: Features
-- Add Furniture
-- Browse Furniture
-- Live Chat
-- Session Storage
+- Add Book
+- Browse Book
+- Live Chat By using Tawk.to 
+- Session Storage By jsonWebToken
 - User Authentication
 - Track Order
 - Manage Order
+- Sweetalert-2 for User Interaction
+- PocoLoco animation
+- FontAwesome icons
 
   
-### :bangbang: Prerequisites
+### :bangbang: Technologies Used
 
 - React
 - MongoDB
 - Node.js
 - Express
 - Postman API
+- HTML
+- CSS
+- Javascript
+- Bootstrap
 - This project uses npm as package manager
 
 ## :toolbox: Getting Started
