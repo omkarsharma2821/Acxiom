@@ -50,10 +50,10 @@ const CartPage = () => {
 
                 <tr>
                     <th className="width">Image</th>
-                    <th>Brand</th>
+                    <th>Publication</th>
+                    <th>Author</th>
+                    <th>Title</th>
                     <th>Price</th>
-                    <th>Material</th>
-                    <th>Action</th>
                 </tr>
             </thead>
             <tbody>
